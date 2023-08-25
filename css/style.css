@@ -1000,6 +1000,7 @@ header .main-nav .mega-menu .links li a i {
     position: absolute;
     top: 0;
     left: 0;
+    content: "";
     background-color: var(--main-color);
     height: 100%;
     transition: 2s width linear;
@@ -1866,3 +1867,108 @@ header .main-nav .mega-menu .links li a i {
     }
 }
 /* End animation*/
+@media (max-width: 576px) {
+    .list-foot .container .box img {
+        display: flex;
+        object-fit: cover;
+    }
+    .list-foot .container .box {
+        padding: 10px;
+    }
+    .features .box .text {
+        padding: 10px;
+    }
+    .features .box .text p {
+        line-height: 1.6;
+        font-size: 20px;
+    }
+    .features .box .text h2 {
+        font-size: 30px;
+    }
+
+    .features .box .text h2::before {
+        margin: 0;
+        top: 40px;
+    }
+    .features .box a {
+        margin: 10px auto;
+        font-size: 20px;
+    }
+    header .main-nav > li > a::before {
+        height: 2px;
+    }
+
+    .main-title {
+        margin-top: 50px;
+        font-size: 25px;
+    }
+    .list-foot .container .box {
+        padding: 10px;
+    }
+    .list-foot .container .box .text p {
+        padding: 5px;
+        line-height: 1.6;
+        margin: 10px 0 0;
+    }
+    .list-foot .box .link a {
+        padding: 10px;
+        font-size: 17px;
+    }
+    .list-foot .box .link i {
+        font-size: 15px;
+    }
+    .testimonials .container .box {
+        padding: 10px;
+    }
+    .team .box .info h3 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .team .box .info p {
+        font-size: 16px;
+        margin: 0 0 15px;
+    }
+    .sections .container .content-box {
+        padding: 10px;
+    }
+    .sections .container .content-box .text-info p {
+        line-height: 1.6;
+    }
+    .event .container .list .average .Rate {
+        width: 65px;
+    }
+    .event .container .list .average .Rate span:first-of-type {
+        font-size: 16px;
+    }
+    .event .container .list p {
+        line-height: 1.6;
+    }
+    .event .container .describe {
+        padding-top: 20px;
+    }
+    event .container .describe form {
+        padding: 20px 10px;
+    }
+    .features .container {
+        gap: 20px;
+    }
+    .testimonials .container {
+        gap: 20px;
+    }
+    .team .box .content-imges .social a {
+        height: 20px;
+        width: 40px;
+    }
+    .Services .container {
+        padding: 10px;
+    }
+
+    .deals .Offers .box h3 {
+        padding: 10px;
+        font-size: 20px;
+        margin: 10px;
+    }
+    .deals .Offers .box h3::before {
+        font-size: 15px;
+    }
+}
