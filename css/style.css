@@ -1399,7 +1399,7 @@ header .main-nav .mega-menu .links li a i {
     display: inline-block;
     margin: 10px;
     padding: 20px;
-    background-image: linear-gradient(to right, #0f0000, #790611);
+    background-image: linear-gradient(to right, #3d0909, #790611);
     font-size: 20px;
     font-weight: 500;
     text-transform: capitalize;
@@ -1962,7 +1962,6 @@ header .main-nav .mega-menu .links li a i {
     .Services .container {
         padding: 10px;
     }
-
     .deals .Offers .box h3 {
         padding: 10px;
         font-size: 20px;
@@ -1970,5 +1969,93 @@ header .main-nav .mega-menu .links li a i {
     }
     .deals .Offers .box h3::before {
         font-size: 15px;
+    }
+    .deals .Offers {
+        gap: 20px;
+    }
+    .deals .Offers .box h3::before {
+        font-size: 15px;
+        right: 20px;
+    }
+    .deals .Offers .box h3::after {
+        right: 20px;
+    }
+    .deals .Offers .box .images-offer img {
+        padding: 10px 15px;
+    }
+    .deals .Offers .box ul li {
+        margin-left: 30px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .deals .Offers .box ul li::before {
+        font-size: 15px;
+        top: 8px;
+        left: -14px;
+    }
+    .deals .btn {
+        font-size: 18px;
+        padding: 15px;
+        margin: 0 10px 15px;
+        font-weight: 400;
+    }
+    .videos .left-box > div {
+        padding: 10px;
+        font-weight: 400;
+    }
+    .videos .left-box > div > span {
+        font-size: 14px;
+    }
+    .videos .right-box p {
+        font-size: 17px;
+        margin: 8px;
+        padding: 10px;
+    }
+    .stats h2 {
+        font-size: 25px;
+        margin: 20px;
+    }
+    .stats .conatainer-stats {
+        padding: 10px;
+        gap: 20px;
+    }
+    .stats .conatainer-stats > div {
+        padding: 10px;
+    }
+    .stats .conatainer-stats > div i {
+        padding: 10px;
+        margin-left: -18px;
+        font-size: 20px;
+    }
+    .stats .conatainer-stats > div span {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .discounts .container h2 {
+        font-size: 25px;
+        margin: 10px 10px 0;
+    }
+    .discounts .container .left-boxs p {
+        line-height: 1.6;
+        font-size: 18px;
+    }
+    .discounts .container .right-boxs form .input {
+        padding: 10px;
+        margin: 8px;
+    }
+    .discounts .container .right-boxs form .input[type="submit"] {
+        margin: 10px;
+    }
+
+    .footer .container .col p {
+        line-height: 1.6;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .footer .container ul {
+        margin-top: 0;
+    }
+    .footer .container ul li::before {
+        top: 12px;
     }
 }
