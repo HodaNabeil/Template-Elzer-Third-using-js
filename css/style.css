@@ -1933,6 +1933,7 @@ header .main-nav .mega-menu .links li a i {
     }
     .sections .container .content-box .text-info p {
         line-height: 1.6;
+        font-size: 16px;
     }
     .event .container .list .average .Rate {
         width: 65px;
@@ -1983,6 +1984,9 @@ header .main-nav .mega-menu .links li a i {
     .deals .Offers .box .images-offer img {
         padding: 10px 15px;
     }
+    .left-boxs img {
+        max-width: 200px;
+    }
     .deals .Offers .box ul li {
         margin-left: 30px;
         padding: 10px;
@@ -2017,7 +2021,7 @@ header .main-nav .mega-menu .links li a i {
     }
     .stats .conatainer-stats {
         padding: 10px;
-        gap: 20px;
+        gap: 10px;
     }
     .stats .conatainer-stats > div {
         padding: 10px;
