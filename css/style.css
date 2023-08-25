@@ -12,6 +12,7 @@
 /* Start Global rules*/
 * {
     box-sizing: border-box;
+    text-transform: capitalize;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -o-box-sizing: border-box;
@@ -995,6 +996,7 @@ header .main-nav .mega-menu .links li a i {
     background-color: #eee;
     height: 30px;
     position: relative;
+    border-radius: 3px;
 }
 .our-price .prices .price .percent span {
     position: absolute;
@@ -1004,6 +1006,11 @@ header .main-nav .mega-menu .links li a i {
     background-color: var(--main-color);
     height: 100%;
     transition: 2s width linear;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
 }
 /* End OUR price */
 /* Start WORKS  */
@@ -1947,7 +1954,7 @@ header .main-nav .mega-menu .links li a i {
     .event .container .describe {
         padding-top: 20px;
     }
-    event .container .describe form {
+    .event .container .describe form {
         padding: 20px 10px;
     }
     .features .container {
@@ -2061,5 +2068,14 @@ header .main-nav .mega-menu .links li a i {
     }
     .footer .container ul li::before {
         top: 12px;
+    }
+    .our-price .prices .price h3 {
+        font-weight: 600;
+        padding: 5px;
+        text-transform: capitalize;
+    }
+    .our-price .prices .price .percent {
+        height: 20px;
+        border-radius: 3px;
     }
 }
