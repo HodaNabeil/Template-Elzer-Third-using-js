@@ -1176,7 +1176,7 @@ header .main-nav .mega-menu .links li a i {
     -o-transition: var(--main-transition);
 }
 .event .container .list .average .Rate span:first-of-type {
-    font-size: 35px;
+    font-size: 16px;
     color: var(--main-color);
     font-weight: bold;
     margin-bottom: 7px;
@@ -1874,6 +1874,7 @@ header .main-nav .mega-menu .links li a i {
     }
 }
 /* End animation*/
+/*  very Small  */
 @media (max-width: 576px) {
     .list-foot .container .box img {
         display: flex;
@@ -1944,9 +1945,6 @@ header .main-nav .mega-menu .links li a i {
     }
     .event .container .list .average .Rate {
         width: 65px;
-    }
-    .event .container .list .average .Rate span:first-of-type {
-        font-size: 16px;
     }
     .event .container .list p {
         line-height: 1.6;
@@ -2057,7 +2055,6 @@ header .main-nav .mega-menu .links li a i {
     .discounts .container .right-boxs form .input[type="submit"] {
         margin: 10px;
     }
-
     .footer .container .col p {
         line-height: 1.6;
         font-size: 15px;
